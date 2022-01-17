@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="371" height="132" viewBox="0 0 371 132">
+  <defs>
+    <filter id="Bg" x="0" y="0" width="132" height="132" filterUnits="userSpaceOnUse">
+      <feOffset dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feFlood flood-color="#cfecf8" flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Transaction" transform="translate(16 -533)">
+    <g id="Logo">
+      <g transform="matrix(1, 0, 0, 1, -16, 533)" filter="url(#Bg)">
+        <path id="Bg-2" data-name="Bg" d="M50,559h0a29.973,29.973,0,0,1,30,30h0a29.973,29.973,0,0,1-30,30h0a29.973,29.973,0,0,1-30-30h0A29.973,29.973,0,0,1,50,559Z" transform="translate(16 -533)" fill="#fff"/>
+      </g>
+      <g id="Bank">
+        <path id="Shape" d="M60.991,599a1,1,0,0,1-1,1H40a1,1,0,0,1,0-2H59.991A1,1,0,0,1,60.991,599Z" fill="#7e8eaa"/>
+        <path id="Shape-2" data-name="Shape" d="M58.741,597.4H41.249a1,1,0,0,1,0-2h.25v-9h-.25a.5.5,0,0,1,0-1H58.741a.5.5,0,0,1,0,1h-.249v9h.249a1,1,0,0,1,0,2Zm-5.251-11v9h3v-9Zm-4.99,0v9h3v-9Zm-5,0v9h3v-9Z" fill="#7e8eaa"/>
+        <path id="Shape-3" data-name="Shape" d="M39.022,583.713a1,1,0,0,1,.567-1.122l10-4.5a1,1,0,0,1,.82,0l9.919,4.463A1,1,0,0,1,60,584.5H40A1,1,0,0,1,39.022,583.713Z" fill="#7e8eaa"/>
+      </g>
+    </g>
+    <g id="Text">
+      <text id="_2500.95" data-name="+ $2500.95" transform="translate(355 587)" fill="#5bda8c" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-81.023" y="0">+ $2500.95</tspan></text>
+      <text id="Bank_Transfer" data-name="Bank Transfer" transform="translate(100 587)" fill="#151c2a" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">Bank Transfer</tspan></text>
+      <text id="April_14_2021" data-name="April 14, 2021" transform="translate(355 604)" fill="#7e8eaa" font-size="10" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-62.188" y="0">April 14, 2021</tspan></text>
+      <text id="Salary_for_March" data-name="Salary for March" transform="translate(100 604)" fill="#7e8eaa" font-size="10" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">Salary for March</tspan></text>
+    </g>
+  </g>
+</svg>
